@@ -1,0 +1,45 @@
+h1{
+    color: yellow;
+}
+body{
+    font-family: 'Trebuchet MS';
+    background-image: url("./img/background.jpg");
+    position: absolute;
+    height: 50%;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    margin: 8%;
+    background-color: white;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, .05);
+    border-radius: 0.5rem;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    transform: translateY(-30px);
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, .3);
+}
+.blog-date span{
+    color: navy;
+}
+.ul-cls{
+    justify-content: center;
+}
+.blog-title h3{
+    font-style: normal;
+    font-weight: 400;
+}
+.blog-description p{
+    font-style: normal;
+    line-height: 1.5;
+}
+.card-body img{
+    height: 200px;
+    width: 100%;
+}
